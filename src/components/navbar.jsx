@@ -1,34 +1,47 @@
 import React from "react";
 import Logo from "../Assets/Images/Screenshot 2023-08-31 at 1.09.28 PM.png";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faSearch } from "@fortawesome/free-solid-svg-icons";
-// <FontAwesomeIcon icon={faSearch} />;
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPaperPlane, faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 py-2">
-      <div className="container mx-auto flex flex-row justify-between items-center">
+    <nav className="w-full h-38 leading-[80px] bg-neutral-300 gap-2 py-2 flex items-center">
+      <div className="Logo container mx-auto flex flex-row justify-between items-center">
         <div className="text-white font-semibold">
-          <img src={Logo} alt="" srcset="" className="w-32 h-32" />
+          {/* Logo */}
+          <a href="https://www.google.com/search?q=google&sca_esv=561979705&rlz=1C5CHFA_enIN1023IN1023&sxsrf=AB5stBjUifLOP0i0vzZ0btY0_ppXUgQpKA%3A1693591779969&ei=4yjyZMLhOqz7seMPjfe80A4&ved=0ahUKEwiC38GDgYqBAxWsfWwGHY07D-oQ4dUDCA8&uact=5&oq=google&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmdvb2dsZTIHECMYigUYJzIWEC4YgAQYFBiHAhixAxiDARjHARjRAzIQEAAYgAQYFBiHAhixAxiDATIHEAAYigUYQzILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIHEAAYigUYQzIIEAAYgAQYsQMyCBAAGIAEGLEDSOUFUOkDWOkDcAJ4AZABAJgBhQGgAYUBqgEDMC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPiAwQYACBBiAYBkAYK&sclient=gws-wiz-serp">
+            <img src={Logo} alt="" className="w-full h-28" />
+          </a>
         </div>
-        <ul className="text-white text-lg flex flex-row gap-4 ">
-          <button
-            type="button"
-            className="py-4 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-          >
-            <li>
-              <a href="#home">LOGIN</a>
+
+        {/* Menu */}
+        <div className="menu flex flex-row space-x-4 justify-between items-center">
+          <ul className="flex flex-row items-center justify-between gap-8 text-smallTextColor font-semibold text-xl">
+            <li className="hover:text-blue-500">
+              <a href="#about">About</a>
             </li>
-          </button>
-          <button
-            type="button"
-            className="text-white bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:focus:ring-yellow-900"
-          >
-            <li>
-              <a href="#about">SIGNUP</a>
+            <li className="hover:text-blue-500">
+              <a href="#service">Service</a>
             </li>
+            <li className="hover:text-blue-500">
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li className="hover:text-blue-500">
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+          {/* Button */}
+          <div className="Button flex items-center gap-4 text-xl">
+            <button className="transition p-4 duration-200 ease-in-out hover:bg-smallTextColor w-32 h-12 text-smallTextColor font-semibold hover:text-white py-0 px-0 border border-smallTextColor hover:border-transparent rounded-xl flex items-center justify-center">
+              <FontAwesomeIcon icon={faPaperPlane} className="text-lg" />
+              <span className="ml-2 font-sans">Let's Talk</span>
+            </button>
+          </div>
+          {/* Menu Icon */}
+          <button className="menu-icon text-xl text-smallTextColor hover:text-blue-500 md:hidden sm:block">
+            <FontAwesomeIcon icon={faBars} style={{ fontSize: "24px" }} />
           </button>
-        </ul>
+        </div>
       </div>
     </nav>
   );
