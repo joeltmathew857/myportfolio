@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/navbar";
-import Footer from "./components/Footer";
 import Body from "./components/Body";
+import Footer from "./components/Footer";
 import AOS from "aos";
+import Services from "./components/Services";
 
 const App = () => {
   useEffect(() => {
@@ -12,7 +13,9 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <Body />
+      <Body>
+        <Services />
+      </Body>
       <Footer />
     </div>
   );

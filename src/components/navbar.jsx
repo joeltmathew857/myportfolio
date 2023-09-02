@@ -9,8 +9,13 @@ const Navbar = () => {
       <div className="Logo container mx-auto flex flex-row justify-between items-center">
         <div className="text-white font-semibold">
           {/* Logo */}
-          <a href="https://www.google.com/search?q=google&sca_esv=561979705&rlz=1C5CHFA_enIN1023IN1023&sxsrf=AB5stBjUifLOP0i0vzZ0btY0_ppXUgQpKA%3A1693591779969&ei=4yjyZMLhOqz7seMPjfe80A4&ved=0ahUKEwiC38GDgYqBAxWsfWwGHY07D-oQ4dUDCA8&uact=5&oq=google&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmdvb2dsZTIHECMYigUYJzIWEC4YgAQYFBiHAhixAxiDARjHARjRAzIQEAAYgAQYFBiHAhixAxiDATIHEAAYigUYQzILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATIHEAAYigUYQzIIEAAYgAQYsQMyCBAAGIAEGLEDSOUFUOkDWOkDcAJ4AZABAJgBhQGgAYUBqgEDMC4xuAEDyAEA-AEBwgIKEAAYRxjWBBiwA8ICChAAGIoFGLADGEPiAwQYACBBiAYBkAYK&sclient=gws-wiz-serp">
-            <img src={Logo} alt="" className="w-full h-28" />
+          <a href="">
+            <h1
+              className="font-sans
+ text-smallTextColor font-bold hover:text-headingColor text-[1.8rem]"
+            >
+              JOEL MATHEW
+            </h1>
           </a>
         </div>
 
