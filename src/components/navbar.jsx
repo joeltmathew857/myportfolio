@@ -10,11 +10,8 @@ const Navbar = () => {
         <div className="text-white font-semibold">
           {/* Logo */}
           <a href="">
-            <h1
-              className="font-sans
- text-smallTextColor font-bold hover:text-headingColor text-[1.8rem]"
-            >
-              JOEL MATHEW
+            <h1 className="font-sans text-smallTextColor font-semibold hover:text-headingColor text-[1.4rem]">
+              JOEL THOMAS MATHEW
             </h1>
           </a>
         </div>

@@ -5,8 +5,8 @@ const Services = () => {
     <div id="services">
       <div className="container lg:pt-5">
         <div className="text-center">
-          <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
-            What i can do for you
+          <h2 className="text-headingColor font-extrabold text-2xl mb-5">
+            What I can do for you
           </h2>
         </div>
       </div>

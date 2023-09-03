@@ -14,14 +14,19 @@ const Body = () => {
     <div className="pt-10">
       <div className="container pt-14">
         <div className="md:flex items-center justify-center sm:flex-col md:flex-row">
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-center items-center p-8">
+            {/* Section: Greeting */}
             <div
               data-aos="fade-right"
               data-aos-offset="500"
               data-aos-easing="ease-in-sine"
             >
-              {/* Section: Greeting */}
               <h5 className="text-headingColor font-[600] text-[16px]">
+                Hello Welcome
+              </h5>
+            </div>
+             {/* Section: Greeting */}
+             <h5 className="text-headingColor font-[600] text-[16px]">
                 Hello Welcome
               </h5>
               {/* Section: Main Heading */}
@@ -116,9 +121,10 @@ const Body = () => {
                 </span>
               </div>
             </div>
+
             {/* Body-Img */}
             <div className="basis-1/3 mt-10 sm:mt-0">
-              <figure className="flex items-center justify-center ">
+              <figure className="flex items-center justify-center">
                 <img
                   src="https://pbs.twimg.com/media/DlSruwNW0AAYQcE.jpg"
                   alt=""
@@ -126,10 +132,11 @@ const Body = () => {
                 />
               </figure>
             </div>
+
             {/* Section: Years of Experience */}
-            <div className="md:basis-1/5 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:flex-col md:justify-end md:text-end">
+            <div className="md:basis-1/5 flex justify-center text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:flex-col md:justify-end md:text-end">
               <div className="mb-10">
-                <h2 className="text-smallTextColor  font-[700] text-[32px]">
+                <h2 className="text-smallTextColor font-[700] text-[32px]">
                   <CountUp start={0} end={6} duration={2} suffix="+" />
                 </h2>
                 <h4 className="text-smallTextColor text-[18px] font-[600]">
