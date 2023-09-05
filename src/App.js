@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Flex from "./components/Flex";
+import FourCard from "./components/FontMenter/Fourcard";
 import AOS from "aos";
 
 const App = () => {
@@ -12,10 +13,11 @@ const App = () => {
 
   return (
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Body></Body>
-      <Footer />
+      <Footer /> */}
       {/* <Flex /> */}
+      <FourCard />
     </div>
   );
 };

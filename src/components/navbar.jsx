@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "../Assets/Images/Screenshot 2023-08-31 at 1.09.28 PM.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane, faBars } from "@fortawesome/free-solid-svg-icons";
 
