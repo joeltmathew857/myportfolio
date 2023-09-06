@@ -6,28 +6,27 @@ import Supervisor from "../../Assets/Images/Svg/icon-supervisor.svg";
 
 const Fourcard = () => {
   return (
-    <div className="flex justify-center items-center bg-gray-200 rounded-md w-full h-screen">
-      {/* main */}
+    <div className="flex justify-center items-center bg-gray-200 rounded-md w-screen h-screen md:w-screen sm:w-screen">
+      {/* main-title */}
       <div className="flex flex-col">
         {/* Title */}
-        <div className="flex lg:flex-col md:flex-row justify-center items-center">
-          <h1 className="text-gray-600 text-2xl flex flex-col">
+        <div className="flex flex-col lg:flex-col md:flex-col justify-center items-center">
+          <div className="text-gray-600 text-2xl p-8 flex flex-col text-center md:text-center">
             Reliable, efficient delivery{" "}
-            <span className="font-bold justify-center items-center">
-              Powered by Technology
-            </span>
-          </h1>
-          <div className="text-sm text-center py-4 text-slate-400 font-roboto text-xs flex flex-col select-all">
+            <span className="font-bold">Powered by Technology</span>
+          </div>
+          <div className="text-sm whitespace-normal lg:text-center py-4 text-slate-400 font-roboto text-xs text-center md:text-center flex flex-col select-all">
             Our Artificial Intelligence powered tools use millions of project
             data
             <span> points to ensure that your project is successful</span>
           </div>
         </div>
+
         {/* Box-container */}
-        <div className="flex flex-col lg:flex-row sm:flex-row gap-3 p-16 md:flex-row gap-3 p-16">
-          {/*first-box*/}
+        <div className="flex flex-col lg:flex-row sm:flex-row gap-3 p-16 md:flex-row gap-3 p-16 ">
           <div className="box-content  bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-teal-300 drop-shadow-2xl h-44 p-4 w-64 ">
-            <div className="flex flex-col">
+            {/*Supervisor*/}
+            <div className="flex flex-col ">
               <h1 className="font-semibold">Supervisor </h1>
               <span className="text-xs text-slate-400 py-2">
                 Monitors activity to identify project roadblocks
@@ -35,6 +34,7 @@ const Fourcard = () => {
             </div>
             <img className="py-10 pl-40" src={Supervisor} alt="Lens" />
           </div>
+          {/* Teambuilder */}
           <div className="flex flex-col gap-4">
             <div className="box-content  bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-red-500 drop-shadow-2xl h-44 p-4 w-64 green-border">
               <div className="flex flex-col">
@@ -46,6 +46,7 @@ const Fourcard = () => {
               </div>
               <img className="py-10 pl-40" src={Teambuilder} alt="Lens" />
             </div>
+            {/* Karma */}
             <div className="box-content bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-yellow-500 drop-shadow-2xl h-44 p-4 w-64 yellow-border">
               <div className="flex flex-col">
                 <h1 className="font-semibold">Karma </h1>
@@ -56,8 +57,8 @@ const Fourcard = () => {
               <img className="py-10 pl-40" src={Karma} alt="Lens" />
             </div>
           </div>
-
-          <div className="box-content align-middle bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-blue-500 drop-shadow-2xl h-44 p-4 w-64 blue-border">
+          {/* Calculator */}
+          <div className="box-content align-center bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-blue-500 drop-shadow-2xl h-44 p-4 w-64 blue-border">
             <div className="flex flex-col">
               <h1 className="font-semibold ">Calculator </h1>
               <span className="text-xs text-slate-400 py-2">
