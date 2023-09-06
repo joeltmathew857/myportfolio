@@ -4,9 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primaryColor: "#8873ef", // Added a comma here
-        headingColor: "#081e21", // Added a comma here
-        smallTextColor: "#193256", // Added a comma here
+        primaryColor: "#8873ef",
+        headingColor: "#081e21",
+        smallTextColor: "#193256",
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans"],
+        raleway: ["Raleway", "sans"],
+        roboto: ["Roboto", "sans"],
       },
     },
   },
