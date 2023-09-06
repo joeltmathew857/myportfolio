@@ -23,8 +23,8 @@ const Fourcard = () => {
         </div>
 
         {/* Box-container */}
-        <div className="flex flex-col lg:flex-row sm:flex-row gap-3 p-16 md:flex-row gap-3 p-16 ">
-          <div className="box-content  bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-teal-300 drop-shadow-2xl h-44 p-4 w-64 ">
+        <div className="flex flex-col flex items-center  lg:flex-row sm:flex-row gap-3 p-16 md:flex-row gap-3 p-16 ">
+          <div className="box-content mr-4  bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-teal-300 drop-shadow-2xl h-44 p-4 w-64 ">
             {/*Supervisor*/}
             <div className="flex flex-col ">
               <h1 className="font-semibold">Supervisor </h1>
@@ -58,7 +58,7 @@ const Fourcard = () => {
             </div>
           </div>
           {/* Calculator */}
-          <div className="box-content align-center bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-blue-500 drop-shadow-2xl h-44 p-4 w-64 blue-border">
+          <div className="box-content ml-4 align-center bg-white rounded-md h-32 w-32 p-4 drop-shadow-md border-t-4 border-blue-500 drop-shadow-2xl h-44 p-4 w-64 blue-border">
             <div className="flex flex-col">
               <h1 className="font-semibold ">Calculator </h1>
               <span className="text-xs text-slate-400 py-2">
