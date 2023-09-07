@@ -2,24 +2,40 @@ import React from "react";
 
 const Flex = () => {
   return (
-    <div className="flex">
-      <div className="bg-yellow-200 text-white p-auto sm:bg-green-200 md:bg-green-700 lg:bg-gray-600 box-content h-32 w-32 p-4 border-4 text-left sm:text-center md:text-right lg:text-bottom">
-        <div className="flex-grow relative top-0 left-0">
-          <div className="box-border h-32 w-32 p-4 border-4 bg-yellow-200 flex items-center">
-            01
-          </div>
-        </div>
-      </div>
-      <div className="flex-grow sticky top-10 left-0">
-        <div className="box-border h-32 w-32 p-4 border-4 bg-gray-500 flex items-center">
-          02
-        </div>
+    <div className="flex  flex-wrap sm:mt-8  lg:flex-row justify-center  items-center lg:max-w">
+      <div className="box bg-gray-600 sm:bg-blue-900 lg:bg-blue-300 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        01
       </div>
 
-      <div className="flex-grow absolute top-0 left-10">
-        <div className="box-border h-32 w-32 p-4 border-4 bg-gray-400 flex items-center">
-          03
-        </div>
+      <div className="box  bg-yellow-500 h-32 w-32 p-4 border-4 text-center flex items-center justify-center lg:items-center">
+        02
+      </div>
+
+      <div className="box  bg-gray-300 h-32 w-32 p-4 border-4 text-center flex items-center justify-center lg:items-center">
+        03
+      </div>
+      <div className="box bg-gray-400 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        04
+      </div>
+
+      <div className="box bg-gray-500 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        05
+      </div>
+      <div className="box  bg-blue-500 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        06
+      </div>
+
+      <div className="box bg-blue-400 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        07
+      </div>
+      <div className="box bg-green-400 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        08
+      </div>
+      <div className="box bg-purple-400 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        09
+      </div>
+      <div className="box bg-orange-400 h-32 w-32 p-4 border-4 text-center flex items-center justify-center">
+        10
       </div>
     </div>
   );

@@ -13,6 +13,9 @@ module.exports = {
         raleway: ["Raleway", "sans"],
         roboto: ["Roboto", "sans"],
       },
+      translate: {
+        4.25: "17rem",
+      },
     },
   },
   plugins: [],
