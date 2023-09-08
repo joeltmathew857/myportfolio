@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Flex from "./components/Flex";
+import Base from "./components/FontMenter/BaseApparel";
 
 import AOS from "aos";
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <Navbar />
       <Body></Body>
       <Footer /> */}
-      <Flex />
+      {/* <Flex /> */}
+      <Base />
     </div>
   );
 };
