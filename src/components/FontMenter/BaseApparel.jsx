@@ -8,23 +8,27 @@ import errorIcon from "../../Assets/Images/Base img/icon-error.svg";
 
 const BaseApparel = () => {
   return (
-    <div className="justify-center flex flex-row	items-center  	h-screen w-screen">
+    <div className="justify-center flex flex-col md:flex-col lg:flex-row bg-slate-200 md:bg-slate-200 lg:bg-transparent items-center h-screen w-screen">
       {/*Description*/}
       <div className="p-8">
-        <div className="flex flex-row">
-          <div>
-            <img src={Backgroundimg} alt="" className="w-full h-screen" />
-          </div>
-          <div>
+        <div className="flex flex-row ">
+          <img
+            src={Backgroundimg}
+            alt=""
+            className="w-full h-full hidden  md:hidden lg:block"
+          />
+          <div className="absolute top-20 left-10">
             <img src={LogoIcon} alt="" srcset="" />
           </div>
-          <h1> We're coming soon</h1>
         </div>
-        <span>
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
-        </span>
+        <div>
+          <h1> We're coming soon</h1>
+          <span>
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </span>
+        </div>
         <div>
           <input
             type="text"
