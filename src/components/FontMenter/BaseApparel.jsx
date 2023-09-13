@@ -34,7 +34,7 @@ const BaseApparel = () => {
             className="rounded-full p-4"
             placeholder="Email Address"
           />
-          <button className="rounded-full bg-yellow-500 p-4">
+          <button className="rounded-full bg-yellow-600 p-4">
             <img src={Arrowicon} alt="" />
           </button>
         </div>
