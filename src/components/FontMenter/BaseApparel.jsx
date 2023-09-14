@@ -21,7 +21,7 @@ const BaseApparel = () => {
           </div>
         </div>
         <div>
-          <h1> We're coming soon</h1>
+          <h1> We're coming soon </h1>
           <span>
             Hello fellow shoppers! We're currently building our new fashion
             store. Add your email below to stay up-to-date with announcements
