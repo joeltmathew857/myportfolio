@@ -31,7 +31,7 @@ const BaseApparel = () => {
         <div>
           <input
             type="text"
-            className="rounded-full p-4"
+            className="rounded-full p-3"
             placeholder="Email Address"
           />
           <button className="rounded-full bg-yellow-600 p-4">
