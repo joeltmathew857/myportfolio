@@ -16,7 +16,7 @@ const BaseApparel = () => {
             alt=""
             className="w-full h-full hidden  md:hidden lg:block"
           />
-          <div className="absolute top-20 left-10">
+          <div className="absolute top-20 left-9">
             <img src={LogoIcon} alt="" />
           </div>
         </div>
@@ -50,7 +50,7 @@ const BaseApparel = () => {
         <img
           src={HeroImgMob}
           alt=""
-          className="block md:block sm:block lg:hidden w-screen  md:w-screen absolute top-30 left-10  md:absolute top-30 left-10 sm:absolute top-40 left-30"
+          className="block md:block sm:block lg:hidden w-screen  md:w-screen absolute top-30  md:absolute top-30 left-10 sm:absolute top-40 left-30"
         />
       </div>
     </div>
