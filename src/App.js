@@ -14,11 +14,11 @@ const App = () => {
 
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Body></Body>
-      <Footer /> */}
+      <Footer />
       {/* <Flex /> */}
-      <Base />
+      {/* <Base /> */}
     </div>
   );
 };
