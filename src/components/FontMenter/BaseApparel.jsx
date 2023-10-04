@@ -16,7 +16,7 @@ const BaseApparel = () => {
             alt=""
             className="w-full h-full hidden  md:hidden lg:block"
           />
-          <div className="absolute top-20 left-9">
+          <div className="absolute top-20 left-8">
             <img src={LogoIcon} alt="" />
           </div>
         </div>
