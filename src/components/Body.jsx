@@ -17,7 +17,7 @@ const Body = () => {
           >
             <figure className="flex items-center justify-center">
               <img
-                src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTuowGGs61PH7nf9Ox-uvRNvlypThY0ci7Px3AI9fXsWsxyti9gTEwdU5B0VTxv3vQaMDaTXjDV1A8PHOs"
+                src="https://images.pexels.com/photos/9124511/pexels-photo-9124511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
                 className="rounded-full w-64 h-80"
               />
