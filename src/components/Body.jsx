@@ -15,7 +15,7 @@ const Body = () => {
             data-aos-delay="300"
             className="basis-1/3 mt-10 sm:mt-0"
           >
-            <figure className="flex items-center justify-center">
+            <figure className="flex items-center justify-left">
               <img
                 src="https://images.pexels.com/photos/9124511/pexels-photo-9124511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
