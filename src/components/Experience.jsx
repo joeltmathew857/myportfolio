@@ -7,10 +7,10 @@ const ExperienceSection = () => {
       data-aos="fade-left"
       data-aos-offset="100"
       data-aos-delay="300"
-      className="md:basis-1/4 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:flex-col md:justify-end md:text-end"
+      className="md:basis-1/4 flex justify-between text-center mt-10 flex-wrap gap-3 md:mt-0 md:flex-col md:justify-end md:text-end"
     >
       <div className="mb-10">
-        <h2 className="text-smallTextColor  font-[700] text-[32px]">
+        <h2 className="text-smallTextColor  font-[600] text-[32px]">
           <CountUp start={0} end={10} duration={2} suffix="+" />
         </h2>
         <h4 className="text-smallTextColor text-[18px] font-[600]">
