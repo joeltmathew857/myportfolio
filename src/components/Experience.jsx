@@ -3,6 +3,7 @@ import CountUp from "react-countup";
 
 const ExperienceSection = () => {
   return (
+
     <div
       data-aos="fade-left"
       data-aos-offset="100"
