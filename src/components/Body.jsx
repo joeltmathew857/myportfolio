@@ -12,7 +12,7 @@ const Body = () => {
           <div
             data-aos="fade-up"
             data-aos-offset="100"
-            data-aos-delay="300"
+            data-aos-delay="200"
             className="basis-1/3 mt-10 sm:mt-0"
           >
             <figure className="flex items-center justify-right">
